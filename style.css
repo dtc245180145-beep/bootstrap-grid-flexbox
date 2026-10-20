@@ -1,0 +1,85 @@
+
+/* Cài đặt chung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+}
+
+/* Tiêu đề */
+h2 {
+    font-weight: bold;
+}
+
+/* Các cột Bootstrap */
+.column-box {
+    min-height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Phần Margin và Padding */
+.spacing-section {
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+/* Carousel */
+.carousel img {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Chữ trên ảnh */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Khu vực biểu tượng */
+.icon-box {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    height: 100%;
+}
+
+/* Form liên hệ */
+.form-container {
+    max-width: 650px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Nút gửi */
+.form-container .btn {
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+}
+
+/* Responsive cho điện thoại */
+@media (max-width: 767.98px) {
+    .carousel img {
+        height: 250px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 16px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+}
